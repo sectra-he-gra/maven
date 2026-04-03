@@ -48,7 +48,7 @@
     <junitVersion>3.8.2</junitVersion>
     <plexusVersion>1.5.5</plexusVersion>
     <plexusInterpolationVersion>1.14</plexusInterpolationVersion>
-    <plexusUtilsVersion>2.0.6</plexusUtilsVersion>
+    <plexusUtilsVersion>4.0.3</plexusUtilsVersion>
     <sisuInjectVersion>2.3.0</sisuInjectVersion>
     <wagonVersion>2.4</wagonVersion>
     <securityDispatcherVersion>1.3</securityDispatcherVersion>
@@ -589,7 +589,7 @@
             <reportSets>
               <reportSet>
                 <!-- Disabled as it kills the site generation via a NoClassDefFoundError -->
-                <reports />
+                <reports/>
               </reportSet>
             </reportSets>
           </plugin>
